@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Тестовое задание</title>
+</head>
+<body>
+<div id="container">
+    <header class="profile">
+        <img class="profile__avatar avatar" src="i/default-img.png" alt="avatar">
+        <h3 class="profile__name"></h3>
+    </header>
+    <div class="social">
+        <div class="divider">
+            <span class="divider__title">Друзья</span>
+        </div>
+        <ul class="list social__friends"></ul>
+        <div class="divider">
+            <span class="divider__title">Не в друзьях</span></div>
+        <ul class="list social__not-friends"></ul>
+        <div class="divider">
+            <span class="divider__title">Популярные люди</span>
+        </div>
+        <ul class="list social__popular-people"></ul>
+    </div>
+</div>
+<template id="listTab">
+    <li class="list__tab">
+        <i class="fa fa-male"></i>
+        <span class="tab__title"></span>
+    </li>
+</template>
+<script src="js/render.js" type="module"></script>
+</body>
+</html>
