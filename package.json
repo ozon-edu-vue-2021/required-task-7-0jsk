@@ -1,0 +1,23 @@
+{
+  "name": "required-7",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozon-edu-vue-2021/required-task-7-0jsk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozon-edu-vue-2021/required-task-7-0jsk/issues"
+  },
+  "homepage": "https://github.com/ozon-edu-vue-2021/required-task-7-0jsk#readme",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
